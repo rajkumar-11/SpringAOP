@@ -74,7 +74,8 @@ public class LoggingAspect {
 	/* the @Around tag is for executing before and after a method...*/
 	/* note that the @annotaion means this will apply to all methods that are tagged with @Lagabble...*/
 	@Around("@annotation(org.migue.javabrains.aspect.Loggable)")
-	public Object myAroundAdvice(ProceedingJoinPoint proceedingJoinPoint) {
+	public Object myAroundAdvice(ProceedingJoinPoint proceedingJoinPoint) 
+	{
 		
 		Object returnedObject = null;
 		try {

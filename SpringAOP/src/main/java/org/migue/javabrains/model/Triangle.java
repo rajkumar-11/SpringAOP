@@ -18,6 +18,4 @@ public class Triangle {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
-	
 }
